@@ -1,0 +1,162 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.nav-bar {
+  background: linear-gradient(135deg, #f8fbff, #9333ea);
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
+
+h1 {
+  margin: 100px;
+  width: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #9333ea
+}
+
+ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+.nav-bar a:hover {
+  color: white
+}
+
+.hero {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #eaedf1, #9333ea);
+  height: 300px;
+  text-align: center;
+  color: white;
+  padding: 80px 20px;
+}
+
+.scroll {
+  padding: 80px 20px;
+}
+
+.title {
+  font-size: 28px;
+  margin: 1rem;
+  color: #9333ea;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.para {
+  text-align: center;
+  background-color: #b671f5;
+  padding: 50px;
+  height: 80px;
+  width: fit-content;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items li {
+  border: 1px solid #9333ae;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #a56cdb;
+  color: white;
+  height: 300px;
+  width: 800px;
+  border-radius: 1rem;
+  padding: 20px;
+  margin: 50px 50px;
+  font-size: 0.9rem;
+}
+
+.card:hover {
+  filter: grayscale(0);
+  opacity: 1;
+  transform: scale(1.1);
+
+}
+
+.projects:hover .card:not(:hover) {
+  filter: grayscale(0);
+  opacity: 0.8;
+
+}
+
+img {
+  height: 170px;
+  width: 180px;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contact {
+  margin-left: 10px;
+  width: 40%;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+  color: #9333ae;
+
+}
+
+.items li {
+  color: #9333ea;
+  font-weight: bold;
+  gap: 20px;
+
+}
+
+.certificates li {
+  margin: 10px;
+  font-weight: bold;
+  color: #9333ea;
+  padding: 12px 15px;
+  border-left: 4px solid #9333ae;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.75);
+  transition: all 0.3s ease;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #9333ea;
+  color: white;
+  margin-top: 60px;
+  font-size: 14px;
+}
